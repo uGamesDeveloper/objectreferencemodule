@@ -1,0 +1,12 @@
+{
+  "name": "com.littlebitgames.objectreferencemodule",
+  "displayName": "Object Reference Module",
+  "version": "1.0.0",
+  "unity": "2021.1",
+  "unityRelease": "6f1",
+  "description": "This module provides work with links to resources.",
+  "category": "Module",
+  "author": {
+    "name": "LittleBitGames"
+  }
+}
