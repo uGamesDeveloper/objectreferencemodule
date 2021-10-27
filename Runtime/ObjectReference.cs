@@ -74,6 +74,27 @@ namespace LittleBit.Modules.ObjectReferenceMoudle
             }
         }
 
+        public string ScriptableObjectPathInResources
+        {
+            get
+            {
+                string[] pathWithoutResources = ObjectPath.Split(new[] {"Resources/"}, StringSplitOptions.None);
+                if (pathWithoutResources.Length >= 2)
+                {
+                    string path = pathWithoutResources[1];
+                    string[] pathWithoutPrefab = path.Split(new[] {".asset"}, StringSplitOptions.None);
+                    if (pathWithoutPrefab.Length >= 1)
+                    {
+                        return pathWithoutPrefab[0];
+                    }
+
+                    return string.Empty;
+                }
+
+                return string.Empty;
+            }
+        }
+
         public static implicit operator string(ObjectReference objectReference)
         {
             return objectReference.ObjectPath;
