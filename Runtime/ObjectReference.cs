@@ -1,4 +1,5 @@
 using System;
+using LittleBit.Modules.Reference.AssetReference;
 using UnityEngine;
 using Object = UnityEngine.Object;
 #if UNITY_EDITOR
@@ -9,7 +10,7 @@ using UnityEditor.SceneManagement;
 
 namespace LittleBit.Modules.ObjectReferenceMoudle
 {
-    [Serializable]
+    [Serializable, Obsolete("Use " + nameof(AssetRef))]
     public class ObjectReference : ISerializationCallbackReceiver
     {
         // This should only ever be set during serialization/deserialization!
