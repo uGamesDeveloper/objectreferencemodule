@@ -6,7 +6,7 @@ using System;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace LittleBit.Modules.Reference.AssetReference
+namespace ugames.Modules.Reference.AssetReference
 {
     [Serializable]
     public class AssetRef : ISerializationCallbackReceiver

@@ -1,5 +1,5 @@
 using System;
-using LittleBit.Modules.Reference.AssetReference;
+using ugames.Modules.Reference.AssetReference;
 using UnityEngine;
 using Object = UnityEngine.Object;
 #if UNITY_EDITOR
@@ -8,7 +8,7 @@ using UnityEditor.SceneManagement;
 #endif
 
 
-namespace LittleBit.Modules.ObjectReferenceMoudle
+namespace ugames.Modules.ObjectReferenceMoudle
 {
     [Serializable, Obsolete("Use " + nameof(AssetRef))]
     public class ObjectReference : ISerializationCallbackReceiver

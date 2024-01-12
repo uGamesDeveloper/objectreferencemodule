@@ -3,7 +3,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace LittleBit.Modules.ObjectReferenceMoudle
+namespace ugames.Modules.ObjectReferenceMoudle
 {
 
     /// <summary>

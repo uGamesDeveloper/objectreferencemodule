@@ -1,6 +1,6 @@
 {
-    "name": "LittleBitGames.ObjectReferenceModule",
-    "rootNamespace": "LittleBit.Modules",
+    "name": "ugames.ObjectReferenceModule",
+    "rootNamespace": "ugames.Modules",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
